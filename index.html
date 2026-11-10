@@ -54,9 +54,6 @@ pathlib.Path("index.html").write_text('''<!DOCTYPE html>
 </style></head>
 <body><h1>Hello World</h1></body></html>''')
 
-# ── 6. Unduh ──────────────────────────────────────────────────
-from google.colab import files
-files.download("index.html")
 
 # ── 7. Bersihkan ──────────────────────────────────────────────
 shutil.rmtree(WORK, ignore_errors=True)
